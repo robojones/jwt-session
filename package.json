@@ -1,0 +1,35 @@
+{
+  "name": "jwt-session",
+  "version": "1.0.0",
+  "description": "Session for express using JSON Web Tokens",
+  "main": "jwt-session.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robojones/jwt-session.git"
+  },
+  "keywords": [
+    "jwt",
+    "express",
+    "session",
+    "json",
+    "web",
+    "tokens"
+  ],
+  "author": "robojones",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/robojones/jwt-session/issues"
+  },
+  "homepage": "https://github.com/robojones/jwt-session#readme",
+  "engines": {
+    "node": ">=6.3.1"
+  },
+  "tonicExample": "const jwtSession = require('jwt-session');",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "jsonwebtoken": "^7.1.9"
+  }
+}
